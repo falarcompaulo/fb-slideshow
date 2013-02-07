@@ -1,13 +1,9 @@
 <ul class="fb-slideshow">
 <?php
-	/*
-	require('./fb-php-sdk/facebook.php');
-	*/
-
 	$facebook = new Facebook(array(
 		'appId'  => 'YOUR_APPID_GOES_HERE',
 		'secret' => 'YOUR_SECRET_GOES_HERE',
-		'cookie' => false,
+		'cookie' => false
 	));
 
 	$fb_rdata = $facebook->api(array(
