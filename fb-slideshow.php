@@ -5,14 +5,14 @@
 	*/
 
 	$facebook = new Facebook(array(
-		'appId'  => '420748071336176',
-		'secret' => '746658de40f7ebd0fcc21d097e8c777d',
-		'cookie' => true,
+		'appId'  => 'YOUR_APPID_GOES_HERE',
+		'secret' => 'YOUR_SECRET_GOES_HERE',
+		'cookie' => false,
 	));
 
 	$fb_rdata = $facebook->api(array(
 		'method'   => 'fql.query',
-		'query'    => 'SELECT pid, src, src_small, src_big, caption FROM photo WHERE aid = "353021031406920_109949" ORDER BY created DESC LIMIT 6',
+		'query'    => 'SELECT pid, src, src_small, src_big, caption FROM photo WHERE aid = "599802953370465_150315" ORDER BY created DESC LIMIT 6',
 		'callback' => ''
 	));
 
