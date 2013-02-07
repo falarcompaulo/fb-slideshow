@@ -24,11 +24,6 @@
 		echo('</li>'.chr(13).chr(10));
 		echo(chr(13).chr(10));
 		$time = $time + 6;
-		/* Debug
-		echo('src: ' . $fb_jdata['src'] . '<br />');
-		echo('src_big: ' . $fb_jdata['src_big'] . '<br />');
-		echo('src_small: ' . $fb_jdata['src_small'] . '<br />');
-		*/
 	}
 ?>
 </ul>
